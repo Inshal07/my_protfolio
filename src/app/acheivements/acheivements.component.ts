@@ -21,6 +21,10 @@ export class AcheivementsComponent implements OnInit {
     url: '../../assets/certificates/Angular-Certificate-Coursera.jpg'
   },
   {
+    Name:'DevOps on AWS: Specialization',
+    url: '../../assets/certificates/DevOps-on-AWS-Coursera.jpg'
+  },
+  {
     Name:'Foundation of User Experience (UX) Design',
     url: '../../assets/certificates/UX-Foundation-Cousera.jpg'
   },
@@ -76,6 +80,6 @@ export class AcheivementsComponent implements OnInit {
 onAchieve = ()=>window.scroll(0, 600);
 
 
- onEvent = () => window.scroll(0, 5500);
+ onEvent = () => window.scroll(0, 7300);
 
 }

@@ -18,4 +18,7 @@ export class AboutComponent implements OnInit {
   gotoProject(){
     this.route.navigate(['/project'])
   }
+  scrollTopath(){
+    window.scroll(0, 600)
+  }
 }
